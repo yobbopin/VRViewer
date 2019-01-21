@@ -18,6 +18,7 @@ var muteButton;
 
 function onLoad() {
   // Load VR View.
+  console.log(VRView.Player)
   vrView = new VRView.Player('#vrview', {
     width: '100%',
     height: 480,
